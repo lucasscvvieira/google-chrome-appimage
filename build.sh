@@ -18,7 +18,7 @@ CHROME_VERSION=$(./opt/google/chrome/chrome --product-version)
 mv ./usr/share/applications/google-chrome.desktop .
 rm -rf ./usr ./etc
 
-mkdir -p ./usr/lib \ 
+mkdir -p ./usr/lib \
 	./usr/share/icons/hicolor/64x64/apps \
 	./usr/share/icons/hicolor/32x32/apps \
 	./usr/share/icons/hicolor/256x256/apps \
