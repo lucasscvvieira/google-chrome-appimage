@@ -1,5 +1,7 @@
 #/bin/sh
 
+set -x
+
 mkdir -p google-chrome/AppDir
 cd google-chrome
 
